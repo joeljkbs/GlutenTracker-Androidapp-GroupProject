@@ -1,6 +1,6 @@
 package com.example.cst8334_glutentracker.activity;
 /*
-
+author: Joel Sebastian
  */
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
