@@ -1,0 +1,70 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CST8334 - Gluten Tracker</string>
+    <string name="cancel_btn" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="facebook_app_id">880845565995717</string>
+    <string name="fb_login_protocol_scheme">fb880845565995717</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+    <string name="version">Version 1.0</string>
+
+    <!-- String values of login activity -->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up_text">Do not have an account?</string>
+    <string name="sign_up_link">Sign Up!</string>
+    <string name="also_sign_in_text">- Also sign in with -</string>
+
+    <!-- String values of register activity -->
+    <string name="sign_up">Sign Up</string>
+    <string name="form_description">Register form\'s border</string>
+    <string name="login_name_text">Login Name</string>
+    <string name="login_name_hint">Enter your login name!</string>
+    <string name="password_text">Password</string>
+    <string name="password_hint">Enter password!</string>
+    <string name="re_password_text">Validate Password</string>
+    <string name="re_password_hint">Enter password again!</string>
+    <string name="user_name_text">User Name</string>
+    <string name="user_name_hint">Enter your user name!</string>
+    <string name="email_text">Email Address</string>
+    <string name="email_hint">Enter your email address!</string>
+    <string name="submit_btn">SUBMIT</string>
+    <string name="error_login_name_empty">Please enter login name!</string>
+    <string name="error_login_name_range">Your login name can only has from 1 to 20 characters!</string>
+    <string name="error_login_name_contains_invalid_value">Your login name contains invalid character. Please try again!</string>
+    <string name="error_login_name_already_exits">\u0020already exists. Please try again!</string>
+    <string name="error_password_empty">Please enter password!</string>
+    <string name="error_invalid_password">Password must contain at least 8 characters include upper case letter, lower case letter and number!</string>
+    <string name="error_password_does_not_match">The passwords you entered didn\'t match! Please try again!</string>
+    <string name="error_user_name_empty">Please enter user name!</string>
+    <string name="error_user_name_contains_invalid_value">Your user name cannot contain characters: \\ / : ? * " ' &lt; > | { } ( ) [ ]</string>
+    <string name="error_email_empty">Please enter your email!</string>
+    <string name="error_invalid_email">Please enter a valid email address!</string>
+    <string name="error_email_already_exists">\u0020is belong to another account</string>
+
+    <!-- String values of main menu activity -->
+    <string name="scanner_activity">Barcode Scanner</string>
+    <string name="cart_activity">Shopping Cart</string>
+    <string name="receipt_activity">Receipt List</string>
+    <string name="report_activity">Report Page</string>
+
+    <!-- String values of cart activity -->
+    <string name="total_deductible">Total Deductible: $</string>
+    <string name="total">Total: $</string>
+    <string name="deductible">Deductible: $</string>
+    <string name="product_name">Product name:\u0020</string>
+    <string name="product_type_gluten">Product type: gluten-free</string>
+    <string name="product_type_not_gluten">Product type: not gluten-free</string>
+    <string name="price">Price: $</string>
+    <string name="linkedProductName">Linked Product:\u0020</string>
+
+    <!-- String values of receipt activity -->
+    <string name="receipt_id">"Receipt ID: "</string>
+    <string name="claim_amount">"Claim Amount: "</string>
+    <string name="date">Date:\u0020</string>
+    <string name="quantity">Quantity:\u0020</string>
+
+    <!-- String values of toolbar -->
+    <string name="activities">Activities</string>
+    <string name="account_manager">Account Manager</string>
+    <string name="setting">Setting</string>
+    <string name="sign_out">Sign out</string>
+</resources>

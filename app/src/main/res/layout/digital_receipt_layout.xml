@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:text="Edit"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_background"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/pname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/product_name"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:layout_margin="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/edit"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/prize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/pname"
+        android:layout_below="@id/pname"
+        android:layout_marginBottom="10dp"
+        android:text="@string/price"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/pname"
+        android:layout_below="@id/prize"
+        android:layout_marginBottom="10dp"
+        android:text="@string/quantity"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:id="@+id/gluten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/pname"
+        android:layout_below="@id/qty"
+        android:layout_toStartOf="@id/edit"
+        android:layout_marginBottom="10dp"
+        android:text="@string/linkedProductName"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/lnk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_below="@id/edit"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_background"
+        />
+
+
+</RelativeLayout>

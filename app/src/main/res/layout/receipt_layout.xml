@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/rid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/receipt_id"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:id="@+id/deduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/claim_amount"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:layout_alignStart="@+id/rid"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/rid"/>
+
+    <TextView
+        android:id="@+id/summarydate"
+        android:text="@string/date"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/rid"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/deduction"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/receiptImage"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_background"/>
+
+
+</RelativeLayout>

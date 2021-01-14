@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <TextView-->
+<!--        android:id="@+id/productNameEdit"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+
+ <!--   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dollarSignEdit"
+        android:text="$"
+        android:layout_toRightOf="@+id/productNameEdit"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/priceEdit"
+        android:layout_toRightOf="@id/dollarSignEdit"/> -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/priceEdit"
+        android:text="@string/price"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:layout_marginStart="50dp"
+        android:layout_marginVertical="10dp"/>
+    <!--<EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/price"
+       android:inputType="numberDecimal"
+       android:layout_toRightOf="@id/productName"/> -->
+
+    <EditText
+        android:id="@+id/quantityEdit"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:layout_alignBottom="@id/plusButtonEdit"
+        android:layout_toEndOf="@id/plusButtonEdit"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/plusButtonEdit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="+"
+        android:layout_alignTop="@id/priceEdit"
+        android:layout_marginStart="190dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:background="@drawable/btn_background"/>
+
+    <Button
+        android:id="@+id/minusButtonEdit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toEndOf="@id/quantityEdit"
+        android:layout_alignTop="@id/plusButtonEdit"
+        android:text="-"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_background"/>
+
+  <!--  <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/removeFromCartEdit"
+        android:text="Remove"
+        android:layout_alignParentRight="true"/> originally there -->
+
+  <!--  <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkButtonEdit"
+        android:text="Link Product"
+        android:layout_below="@+id/removeFromCartEdit"
+        android:layout_alignParentRight="true"/> originally there-->
+
+  <!--  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deductibleViewEdit"
+        android:text="Deductible: $"
+
+        android:layout_below="@+id/plusButtonEdit" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deductibleTextEdit"
+        android:layout_below="@+id/minusButtonEdit"
+        android:layout_toRightOf="@+id/deductibleViewEdit"/> -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deductibleTextEdit"
+        android:text="@string/deductible"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:layout_marginVertical="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_below="@+id/plusButtonEdit" />
+
+ <!--   <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/changePriceEdit"
+        android:layout_below="@+id/linkButtonEdit"
+        android:text="Change Price" /> was originally working -->
+
+<!--    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/changePriceEdit"
+        android:layout_below="@+id/deductibleViewEdit"
+        android:text="Change Price" /> -->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:id="@+id/changePriceAndQuantityTextEdit"
+        android:layout_marginHorizontal="50dp"
+        android:layout_below="@+id/deductibleTextEdit"/>
+
+
+</RelativeLayout>

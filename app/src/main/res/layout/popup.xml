@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:adnroid="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/txtA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2020 October Report Detail"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtB"
+        android:layout_below="@+id/txtA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text=""/>
+    <TextView
+        android:id="@+id/txtC"
+        android:layout_below="@+id/txtB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="No.:253090   Date:2020-10-12   Amount:$52.62  Tax-d:$2.50"/>
+
+    <TextView
+        android:id="@+id/txtD"
+        android:layout_below="@+id/txtC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="No.:100045   Date:2020-10-13   Amount:$152.62  Tax-d:$0.50"/>
+
+    <TextView
+        android:id="@+id/txtE"
+        android:layout_below="@+id/txtD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="No.:399045   Date:2020-10-20   Amount:$92.62  Tax-d:$2.50"/>
+
+    <TextView
+        android:id="@+id/txtF"
+        android:layout_below="@+id/txtE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="No.:253000   Date:2020-10-21   Amount:$52.20  Tax-d:$7.50"/>
+
+    <TextView
+        android:id="@+id/txtG"
+        android:layout_below="@+id/txtF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="No.:253045   Date:2020-10-25   Amount:$52.62  Tax-d:$3.50"/>
+
+
+</RelativeLayout>

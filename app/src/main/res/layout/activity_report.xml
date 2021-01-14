@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ReportActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/reportToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:text=" Go to Report Management"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtRpt"
+        android:layout_width="350dp"
+        android:layout_height="39dp"
+        android:text="Receipt Management:"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="4dp" />
+    <TextView
+        android:id="@+id/txtFindrpt"
+        android:layout_width="1dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/txtRpt"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:layout_marginStart="10dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/txtRecnt"
+        android:layout_width="220dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/txtFindrpt"
+        android:text="Recent records:"
+        android:textSize="15sp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="4dp" />
+    <TextView
+        android:id="@+id/txtR_m"
+        android:layout_width="220dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/txtFindrpt"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:layout_marginStart="10dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ListView
+        android:id="@+id/lstReceipt"
+        android:layout_below="@+id/txtRecnt"
+        android:layout_above="@id/btnReport"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+
+
+
+
+</RelativeLayout>

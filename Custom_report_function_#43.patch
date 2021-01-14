@@ -1,0 +1,93 @@
+Index: app/src/main/java/com/example/cst8334_glutentracker/ReportActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/cst8334_glutentracker/ReportActivity.java	(revision c597ead3a90cac626f90ba2c07da476d70f38c01)
++++ app/src/main/java/com/example/cst8334_glutentracker/ReportActivity.java	(date 1604848029162)
+@@ -38,6 +38,17 @@
+     Button btnRpt;
+ 
+ 
++//    receipts.receiptID
++//    receipts.receiptFile
++//    receipts.totalTaxDeduction
++//    receipts.date
++//
++//    products.productID
++//    products.productName
++//    products.productDescription
++//    products.price
++//    products.isGlutenFree
++
+     int images = R.drawable.image;
+     String rId[] = {"12301","14502","30003","45601","67834","002345"};
+     String rDate[] = {"2020-9-3","2020-8-12","2020-10-8","2020-6-5","2020-4-22","2020-10-1"};
+@@ -45,6 +56,8 @@
+     String rSub[] = {"23.50","105.89","78.45","23.50","105.89","78.45"};
+     String rTax[] = {"0.8","5.25","1.05","0.8","5.25","1.05"};
+ 
++   // String receipts[] = {"","","","",""}
++
+ 
+     List<ItemsModel> listItems = new ArrayList<>();
+ 
+Index: app/src/main/java/com/example/cst8334_glutentracker/ReportMActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/cst8334_glutentracker/ReportMActivity.java	(revision c597ead3a90cac626f90ba2c07da476d70f38c01)
++++ app/src/main/java/com/example/cst8334_glutentracker/ReportMActivity.java	(date 1604848435920)
+@@ -38,6 +38,12 @@
+             }
+         });
+ 
++
++        //    receipts.receiptID
++        //    receipts.receiptFile
++        //    receipts.totalTaxDeduction
++        //    receipts.date
++
+         arrayList = new ArrayList<>();
+         arrayList.add("2019-Jan   Total:$230.50          dTax:$23.80");
+         arrayList.add("2019-Feb   Total:$230.50          dTax:$23.80");
+Index: app/src/main/res/layout/activity_report_m.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_report_m.xml	(revision c597ead3a90cac626f90ba2c07da476d70f38c01)
++++ app/src/main/res/layout/activity_report_m.xml	(date 1604848931938)
+@@ -24,6 +24,14 @@
+ 
+         tools:layout_editor_absoluteX="93dp"
+         tools:layout_editor_absoluteY="4dp" />
++
++
++     <!--Custom report function #43 -->
++
++
++
++    <!--Custom report function #43 -->
++    
+     <TextView
+         android:id="@+id/txtFindrpt_m"
+         android:layout_width="1dp"
+Index: app/src/main/java/com/example/cst8334_glutentracker/databaseActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/cst8334_glutentracker/databaseActivity.java	(revision c597ead3a90cac626f90ba2c07da476d70f38c01)
++++ app/src/main/java/com/example/cst8334_glutentracker/databaseActivity.java	(date 1604848029192)
+@@ -25,4 +25,9 @@
+     //public static class Users {
+ 
+     //}
++
++
++
++
++
+ }

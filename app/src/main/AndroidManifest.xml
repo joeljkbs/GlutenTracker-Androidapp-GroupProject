@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cst8334_glutentracker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".functionality.ImageReceipt"></activity>
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.MainMenuActivity"
+            android:theme="@style/AppToolBar"/>
+        <activity android:name=".activity.DigitalReceipt" />
+        <activity android:name=".activity.Link" />
+        <activity android:name=".activity.ReportActivity" />
+        <activity android:name=".activity.ReportMActivity" />
+        <activity android:name=".activity.ScanActivity" />
+        <activity android:name=".activity.CartActivity" />
+        <activity android:name=".activity.ReceiptActivity" />
+        <activity android:name=".activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- The csv file report output #42 -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.cst8334_glutentracker.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

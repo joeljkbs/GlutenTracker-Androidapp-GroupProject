@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CartActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/cartToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/purchases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/totalDeductible"/>
+
+    <Button
+        android:id="@+id/addNewProductButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Product"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="serif"
+        android:layout_above="@id/checkout_button"
+        android:background="@drawable/btn_background"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:id="@+id/checkout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check out"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="serif"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_background"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalDeductible"
+        android:layout_above="@+id/total"
+        android:text="@string/total_deductible"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/addNewProductButton"
+        android:text="@string/total"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:paddingTop="10dp"
+        android:background="@color/colorWhite"/>
+
+</RelativeLayout>

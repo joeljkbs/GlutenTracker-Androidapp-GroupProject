@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "980537074160",
+    "firebase_url": "https://gluten-tracker.firebaseio.com",
+    "project_id": "gluten-tracker",
+    "storage_bucket": "gluten-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980537074160:android:c418d34bfa52cdcb813d35",
+        "android_client_info": {
+          "package_name": "com.example.cst8334_glutentracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980537074160-039acha57dugs8c341q215dpg7u91te1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cst8334_glutentracker",
+            "certificate_hash": "d25e76cdf5d4492291a0bc8164ad49c5a86323c9"
+          }
+        },
+        {
+          "client_id": "980537074160-bcnhvb9fhptsdi4ekvt034p5ntsdu488.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6hemmtk3tyDQNOsXIsg_m0Fw_tZIFkGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980537074160-bcnhvb9fhptsdi4ekvt034p5ntsdu488.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

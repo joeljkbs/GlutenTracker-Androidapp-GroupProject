@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/itemView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:src="@drawable/receipt"/>
+    <TextView
+        android:id="@+id/itemId"
+        android:text="Id"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:layout_marginStart="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"/>
+    <TextView
+        android:id="@+id/itemDate"
+        android:text="Date"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"/>
+    <TextView
+        android:id="@+id/itemDetail"
+        android:text="Detail"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:id="@+id/itemTax"
+        android:text="Tax"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif"
+        android:layout_marginStart="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"/>
+    <TextView
+        android:id="@+id/itemSub"
+        android:text="SubTotal"
+        android:fontFamily="serif"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"/>
+
+</RelativeLayout>
+
+</LinearLayout>
